@@ -41,3 +41,16 @@ let feedback = [
 console.log("Array of feedback", feedback); // Displays the array of feedback from three customers and their cooresponding feedback and ratings
 feedback.push({customerName: "Pikachu", feedbackText: "Pikachu!", rating: "80"});
 console.log("Array", feedback); // Adds new customer "Pikachu" and his response to the array
+
+// Task 5 - Inventory Management System
+
+let inventory = {
+    itemName: "shampoo", 
+    stockCount: 45,
+    price: 15
+};
+console.log("object inventory", inventory); // assign properties to the inventory and log
+function calculateTotalValue(amount){
+    return amount * inventory.price;
+}; // this function will multiply the amount of inventory times it's price to find out how much it is worth
+console.log("Total Value:", calculateTotalValue(inventory.stockCount)); // Log of the value of the inventory based on price and quantity
