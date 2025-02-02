@@ -15,3 +15,17 @@ orders[2] = 105
 console.log("Increased Order Quantities:", orders) // Increased thrid order quantity from 100 to 105 and logged the output
 let total = orders.reduce((sum, order) => sum + order, 0);
 console.log("Total number of orders", total); // Calculated total number of orders
+
+// Task 3 - Employee Performance Tracking
+
+let employee = {
+    name: "John Doe",
+    role: "manager",
+    performanceScore: 89,
+    isActive: true
+}; 
+console.log("Employee Information:", employee); // Declared employee John Doe and logged his properties
+employee.performanceScore = 95;
+console.log("Updated Employee Information", employee); // Updated and logged employee performace score to 95
+employee.promotionEligible = employee.performanceScore >= 90 ? "Yes" : "No";
+console.log("Is the employee promotion eligible?", employee.promotionEligible); // Return yes since the performanceScore is > 90
