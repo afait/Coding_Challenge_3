@@ -29,3 +29,14 @@ employee.performanceScore = 95;
 console.log("Updated Employee Information", employee); // Updated and logged employee performace score to 95
 employee.promotionEligible = employee.performanceScore >= 90 ? "Yes" : "No";
 console.log("Is the employee promotion eligible?", employee.promotionEligible); // Return yes since the performanceScore is > 90
+
+// Task 4 - Customer Feedback Records
+
+let feedback = [
+    {customerName: "John Cena", feedbackText: "10/10 product would purchase again", rating: "100"},
+    {customerName: "Mickey Mouse", feedbackText: "Oh boy! What a wondderful product", rating: "95"},
+    {customerName: "Eeyore", feedbackText: "Horrible product, made me even more sad", rating: "0"}
+];
+console.log("Array of feedback", feedback); // Displays the arry of feedback from three customers and their cooresponding feedback and ratings
+feedback.push({customerName: "Pikachu", feedbackText: "Pikachu!", rating: "80"});
+console.log("Array", feedback); // Adds new customer "Pikachu" and his response to the array
