@@ -32,11 +32,12 @@ console.log("Is the employee promotion eligible?", employee.promotionEligible); 
 
 // Task 4 - Customer Feedback Records
 
+// Creating the feedback array
 let feedback = [
     {customerName: "John Cena", feedbackText: "10/10 product would purchase again", rating: "100"},
     {customerName: "Mickey Mouse", feedbackText: "Oh boy! What a wondderful product", rating: "95"},
     {customerName: "Eeyore", feedbackText: "Horrible product, made me even more sad", rating: "0"}
 ];
-console.log("Array of feedback", feedback); // Displays the arry of feedback from three customers and their cooresponding feedback and ratings
+console.log("Array of feedback", feedback); // Displays the array of feedback from three customers and their cooresponding feedback and ratings
 feedback.push({customerName: "Pikachu", feedbackText: "Pikachu!", rating: "80"});
 console.log("Array", feedback); // Adds new customer "Pikachu" and his response to the array
